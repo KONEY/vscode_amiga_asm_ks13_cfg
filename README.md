@@ -13,7 +13,7 @@ settings.json is VScode config, adjust as needed
 
 custom.css copy anywhere and adjust previous file accordingly.
 
-TOPAZPLUS_A1200_V1.0.TTF install it, thanks to https://www.sblendorio.eu/Misc/TopazFont
+TOPAZPLUS_A1200_V1.0.TTF install it, this comes from https://github.com/rewtnull/amigafonts
 
 PREVIEWS:
 
