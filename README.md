@@ -5,13 +5,11 @@ VScode extensions needed:  https://github.com/prb28/vscode-amiga-assembly  -  ht
 
 How to use files:
 
-M68k-Assembly.tmLanguage.json replaces https://github.com/prb28/vscode-amiga-assembly/blob/master/syntaxes/M68k-Assembly.tmLanguage.json
+M68k-Assembly.tmLanguage.json > replaces https://github.com/prb28/vscode-amiga-assembly/blob/master/syntaxes/M68k-Assembly.tmLanguage.json - This file has modification to separate Data and Address registers from variables, enabling them to be styled separately. Also to separate instructions from opcodes sizes, enabling ".B", ".W", ".L" and ".S" extensions to be styled with different colors from instructions. 
 
-This files separates Data and Address registers from variables, enabling them to be styled separately. Also separates instructions from opcodes sizes, enabling ".B", ".W", ".L" and ".S" extensions to be styled with different colors from instructions. 
+settings.json > VScode config, adjust as needed. Here styles are set so that some new classes area added to the markup, allowing custom css from next file to be applied.
 
-settings.json is VScode config, adjust as needed
-
-custom.css copy anywhere and adjust previous file accordingly.
+custom.css > copy anywhere and adjust previous file accordingly.
 
 TOPAZPLUS_A1200_V1.0.TTF install it, this comes from https://github.com/rewtnull/amigafonts
 
