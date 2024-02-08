@@ -1,0 +1,166 @@
+{
+	"editor.fontFamily": "Topaz a600a1200a400",
+	"editor.fontSize": 16,
+	"editor.lineHeight": 16,
+	"editor.cursorStyle": "block",
+	"editor.fontVariations": false,
+	"editor.renderWhitespace": "none",
+	"editor.experimentalWhitespaceRendering": "off",
+	"editor.insertSpaces": false,
+	"editor.fontLigatures": false,
+	"editor.detectIndentation": false,
+	"editor.guides.indentation": false,
+	"editor.guides.highlightActiveBracketPair": false,
+	"editor.tabSize": 4,
+	"terminal.integrated.fontFamily": "Px437 IBM CGA-2y",
+	"terminal.integrated.fontSize": 16,
+	"vscode_custom_css.imports": [
+		"file:///C:/Users/KONEY/.vscode/custom.css"
+	],
+	"workbench.colorTheme": "Default High Contrast",
+	"workbench.colorCustomizations": {
+		"editor.background": "#05A",
+		"editor.foreground": "#FFF"
+	},
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"source.asm.m68k",
+					"string.quoted.double.m68k",
+					"string.quoted.single.m68k"
+				],
+				"settings": {
+					"foreground": "#FFF"
+				}
+			},
+			{
+				"scope": [
+					"comment.line.semicolon",
+					"comment.block.asterisk"
+				],
+				"settings": {
+					"foreground": "#000"
+				}
+			},
+			{
+				"scope": [
+					"keyword.control.condition.m68k",
+					"keyword.control.other.m68k",
+					"meta.macro.m68k"
+				],
+				"settings": {
+					"foreground": "#05A",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"keyword.other.opcode.cpu.b.m68k",
+					"keyword.other.opcode.cpu.m68k",
+					"constant.numeric.hex.m68k",
+					"constant.numeric.decimal.m68k",
+					"variable.language.m68k"
+				],
+				"settings": {
+					"foreground": "#F80",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"keyword.other.opcode.cpu.bl.m68k",
+					"keyword.other.opcode.cpu.l.m68k",
+					"keyword.other.opcode.cpu.wl.m68k",
+					"keyword.other.opcode.cpu.w.m68k",
+					"keyword.other.opcode.cpu.bwl.m68k",
+					"keyword.other.opcode.cpu.bwls.m68k",
+					"keyword.other.opcode.mem.m68k",	
+				],
+				"settings": {
+					"foreground": "#FFF"
+				}
+			},
+			{
+				"scope": [],
+				"settings": {
+					"foreground": "#000",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"opcode.size.m68k"
+				],
+				"settings": {
+					"foreground": "#FF00FF",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"variable.other.constant.m68k",
+					"constant.numeric.binary.m68k"
+				],
+				"settings": {
+					"foreground": "#F80",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"meta.label.global.m68k"
+				],
+				"settings": {
+					"foreground": "#FFF",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"keyword.control.section.m68k",
+					"keyword.control.import.m68k",
+					"variable.other.macro.m68k"
+				],
+				"settings": {
+					"foreground": "#F80",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": [
+					"data.register.language.m68k"
+				],
+				"settings": {
+					"foreground": "#00FF80"
+				}
+			},
+			{
+				"scope": [
+					"address.register.language.m68k"
+				],
+				"settings": {
+					"foreground": "#F00F80",
+					"fontStyle": "bold"
+				}
+			}
+		]
+	},
+	"amiga-assembly.format.useTabs": true,
+	"amiga-assembly.checkErrorOnSave": false,
+	"amiga-assembly.tmpDir": "B:\\AMIGA\\CODE\\EXE\\",
+	"[rexx]": {
+		"editor.tabSize": 2
+	},
+	"security.workspace.trust.untrustedFiles": "open",
+	"[m68k]": {
+		"editor.tabSize": 10
+	},
+	"[json]": {
+		"editor.tabSize": 2
+	},
+	"[ah2]": {
+		"editor.tabSize": 2
+	},
+	"editor.accessibilitySupport": "off"
+}
