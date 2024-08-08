@@ -127,7 +127,7 @@
 			"match": "(?i)(?<=\\s)(move16|unlk|unpk|nop|reset|pack|stop|bfchg|pflush|bfclr|pflusha|bfexts|pflushan|bfextu|pflushn|bfffo|pflushr|bfins|pflushs|bfset|ploadr|bftst|ploadw|bgnd|plpar|plpaw|bkpt|callm|prestore|psave|cinvl|cinvp|cinva|cpushl|cpushp|cpusha|ptestr|ptestw|pulse|rtd|rte|rtm|rtr|rts|trap|trapv|fnop|frestore|fsave|halt|illegal|intouch|jmp|jsr|linea|line_a|linef|line_f)\\b"
 		},
 		{
-			"name": "disabled.keyword.other.opcode.cpu.bwls.m68k",
+			"name": "keyword.other.opcode.cpu.bwls.m68k",
 			"match": "(?i)(?<=\\s)(bhs|blo|bhi|bls|bcc|bcs|bne|beq|bvc|bvs|bpl|bmi|bge|blt|bgt|ble|bra|bsr|jbhs|jblo|jbhi|jbls|jbcc|jbcs|jbne|jbeq|jbvc|jbvs|jbpl|jbmi|jbge|jblt|jbgt|jble|jbra|jbsr)\\b"
 		},
 		{
