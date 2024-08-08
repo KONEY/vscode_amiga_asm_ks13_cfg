@@ -20,7 +20,14 @@
 	"workbench.colorTheme": "Default High Contrast",
 	"workbench.colorCustomizations": {
 		"editor.background": "#05A",
-		"editor.foreground": "#FFF"
+		"editor.foreground": "#FFF",
+		"editor.selectionBackground": "#FFF", //Current SELECTED text
+        "editor.selectionHighlightBackground": "#000", //same content as the selection
+        "editor.findMatchBackground": "#F80",
+        "editor.findMatchHighlightBackground": "#000",
+		"editorLineNumber.foreground": "#F80",
+		"editorGutter.background" : "#000",
+		"editorLineNumber.activeForeground": "#FFF"
 	},
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
@@ -37,7 +44,9 @@
 			{
 				"scope": [
 					"comment.line.semicolon",
-					"comment.block.asterisk"
+					"comment.block.asterisk",
+					"meta.macro.m68k",
+					"meta.macro.end.m68k"
 				],
 				"settings": {
 					"foreground": "#000"
@@ -47,20 +56,27 @@
 				"scope": [
 					"keyword.control.condition.m68k",
 					"keyword.control.other.m68k",
-					"meta.macro.m68k"
 				],
 				"settings": {
-					"foreground": "#05A",
+					"foreground": "#000",
 					"fontStyle": "bold"
 				}
 			},
 			{
 				"scope": [
-					"keyword.other.opcode.cpu.b.m68k",
 					"keyword.other.opcode.cpu.m68k",
 					"constant.numeric.hex.m68k",
 					"constant.numeric.decimal.m68k",
-					"variable.language.m68k"
+					"variable.language.m68k",
+
+					"keyword.other.opcode.cpu.b.m68k",
+					"keyword.other.opcode.cpu.bl.m68k",
+					"keyword.other.opcode.cpu.l.m68k",
+					"keyword.other.opcode.cpu.wl.m68k",
+					"keyword.other.opcode.cpu.w.m68k",
+					"keyword.other.opcode.cpu.bwl.m68k",
+					"keyword.other.opcode.cpu.bwls.m68k",
+					"keyword.other.opcode.mem.m68k",
 				],
 				"settings": {
 					"foreground": "#F80",
@@ -69,13 +85,8 @@
 			},
 			{
 				"scope": [
-					"keyword.other.opcode.cpu.bl.m68k",
-					"keyword.other.opcode.cpu.l.m68k",
-					"keyword.other.opcode.cpu.wl.m68k",
-					"keyword.other.opcode.cpu.w.m68k",
-					"keyword.other.opcode.cpu.bwl.m68k",
-					"keyword.other.opcode.cpu.bwls.m68k",
-					"keyword.other.opcode.mem.m68k",	
+					"meta.equate.m68k",
+					"keyword.branching.opcode.m68k"
 				],
 				"settings": {
 					"foreground": "#FFF"
@@ -100,7 +111,7 @@
 			{
 				"scope": [
 					"variable.other.constant.m68k",
-					"constant.numeric.binary.m68k"
+					"constant.numeric.binary.m68k",
 				],
 				"settings": {
 					"foreground": "#F80",
@@ -120,7 +131,8 @@
 				"scope": [
 					"keyword.control.section.m68k",
 					"keyword.control.import.m68k",
-					"variable.other.macro.m68k"
+					"variable.other.macro.m68k",
+					"keyword.operator.assignment.m68k"
 				],
 				"settings": {
 					"foreground": "#F80",
@@ -162,5 +174,13 @@
 	"[ah2]": {
 		"editor.tabSize": 2
 	},
-	"editor.accessibilitySupport": "off"
+	"editor.accessibilitySupport": "off",
+	"security.allowedUNCHosts": [
+		"192.168.1.28"
+	],
+	"git.autofetch": true,
+	"customvscodeuicss.css": ".windows {font-family: Tahoma !important; font-weight:bold;}",
+	"workbench.settings.applyToAllProfiles": [
+		"customvscodeuicss.css"
+	],
 }
