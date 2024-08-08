@@ -84,8 +84,8 @@
 			{
 				"scope": [
 					"meta.equate.m68k",
-					"keyword.branching.opcode.m68k"
-					"keyword.other.opcode.cpu.bwls.m68k",
+					"keyword.branching.opcode.m68k",
+					"keyword.other.opcode.cpu.bwls.m68k"
 				],
 				"settings": {
 					"foreground": "#FFF"
