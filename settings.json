@@ -68,14 +68,12 @@
 					"constant.numeric.hex.m68k",
 					"constant.numeric.decimal.m68k",
 					"variable.language.m68k",
-
 					"keyword.other.opcode.cpu.b.m68k",
 					"keyword.other.opcode.cpu.bl.m68k",
 					"keyword.other.opcode.cpu.l.m68k",
 					"keyword.other.opcode.cpu.wl.m68k",
 					"keyword.other.opcode.cpu.w.m68k",
 					"keyword.other.opcode.cpu.bwl.m68k",
-					"keyword.other.opcode.cpu.bwls.m68k",
 					"keyword.other.opcode.mem.m68k",
 				],
 				"settings": {
@@ -87,6 +85,7 @@
 				"scope": [
 					"meta.equate.m68k",
 					"keyword.branching.opcode.m68k"
+					"keyword.other.opcode.cpu.bwls.m68k",
 				],
 				"settings": {
 					"foreground": "#FFF"
@@ -182,5 +181,5 @@
 	"customvscodeuicss.css": ".windows {font-family: Tahoma !important; font-weight:bold;}",
 	"workbench.settings.applyToAllProfiles": [
 		"customvscodeuicss.css"
-	],
+	]
 }
