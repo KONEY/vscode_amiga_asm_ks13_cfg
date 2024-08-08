@@ -1,31 +1,42 @@
-.mtk1.mtkb{		background-color: black;	color: #F80;	}
-.mtk2.mtkb{		background-color: black;		}
-.mtk22{			color: #F80;				}
+.mtk1.mtkb{	
+	/* Labels */
+	background-color: black;
+	color: white;
+}
+.mtk20.mtkb{
+	background-color: #F80;
+}
+.mtk22{
+	/* instr. size */
+	color: white;
+}
 .mtk22:before {
 	content: ".";
-	color: white;
+	color: black;
 	position: absolute;
 }
 .mtk23{
 	/* D0-D7 */
+	background-color: black;
 	color: #F80;
 	text-transform: uppercase;
 }
-.mtk23:before{
+/*.mtk23:before{
 	content: "__";
 	color: black;
 	position: absolute;
-}
+}*/
 .mtk24{
 	/* A0-A7 */
+	background-color: black;
 	color: #F80;
 	text-transform: uppercase;
 }
-.mtk24:before{
+/*.mtk24:before{
 	content: "__";
 	color: black;
 	position: absolute;
-}
+}*/
 .mtk1.bracket-highlighting-1{	color: #F80;	}
 .mtk1.bracket-highlighting-0{	color: white;	}
 .mtk1.bracket-highlighting-2{	color: black;	}
