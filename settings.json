@@ -21,8 +21,8 @@
 	"workbench.colorCustomizations": {
 		"editor.background": "#05A",
 		"editor.foreground": "#FFF",
-		"editor.selectionBackground": "#FFF", //Current SELECTED text
-        "editor.selectionHighlightBackground": "#000", //same content as the selection
+		"editor.selectionBackground": "#FFF",
+        "editor.selectionHighlightBackground": "#000",
         "editor.findMatchBackground": "#F80",
         "editor.findMatchHighlightBackground": "#000",
 		"editorLineNumber.foreground": "#F80",
