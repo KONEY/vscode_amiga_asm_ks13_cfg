@@ -1,3 +1,7 @@
+.windows {
+	font-family: Tahoma !important; 
+	font-weight:bold;
+}
 .mtk1.mtkb{	
 	/* Labels */
 	background-color: black;
